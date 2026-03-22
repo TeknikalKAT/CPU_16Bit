@@ -3203,8 +3203,9 @@
     </comp>
     <comp lib="4" loc="(3500,590)" name="RAM">
       <a name="appearance" val="logisim_evolution"/>
+      <a name="clearpin" val="true"/>
       <a name="dataWidth" val="16"/>
-      <a name="label" val="CPU_RAM"/>
+      <a name="enables" val="line"/>
     </comp>
     <comp lib="4" loc="(470,600)" name="Counter">
       <a name="appearance" val="logisim_evolution"/>
@@ -3423,19 +3424,19 @@
       <a name="labelfont" val="SansSerif bold 11"/>
       <a name="labelloc" val="south"/>
     </comp>
-    <comp lib="6" loc="(1580,189)" name="Text">
+    <comp lib="6" loc="(1580,185)" name="Text">
       <a name="font" val="SansSerif bold 23"/>
       <a name="text" val="INTERNAL DATA BUS (8 BITS)"/>
     </comp>
-    <comp lib="6" loc="(1661,2450)" name="Text">
+    <comp lib="6" loc="(1660,2450)" name="Text">
       <a name="font" val="SansSerif bold 23"/>
       <a name="text" val="INTERNAL DATA BUS"/>
     </comp>
-    <comp lib="6" loc="(3068,208)" name="Text">
+    <comp lib="6" loc="(3065,205)" name="Text">
       <a name="font" val="SansSerif bold 23"/>
       <a name="text" val="EXTERNAL DATA BUS (8 BITS)"/>
     </comp>
-    <comp lib="6" loc="(3180,2454)" name="Text">
+    <comp lib="6" loc="(3180,2450)" name="Text">
       <a name="font" val="SansSerif bold 23"/>
       <a name="text" val="EXTERNAL DATA BUS"/>
     </comp>
